@@ -21,6 +21,7 @@
         :root { --gold: #d4af37; --bg: #020202; }
         body { margin: 0; font-family: 'Segoe UI', Tahoma, sans-serif; background: var(--bg); color: #fff; line-height: 1.8; }
         .header { background: #000; padding: 20px; text-align: center; border-bottom: 2px solid var(--gold); }
+        .header h1 { margin: 0; font-size: 24px; color: var(--gold); }
         .container { max-width: 1000px; margin: auto; padding: 20px; }
         /* مشغل الفيديو */
         .video-wrapper { position: relative; width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 15px; border: 2px solid var(--gold); overflow: hidden; cursor: pointer; margin-bottom: 20px; }
@@ -35,10 +36,12 @@
 <body>
 <header class="header"><h1>طيف دراما</h1></header>
 <div class="container">
+    <!-- عند الضغط على الصورة يتم فتح رابط الحلقة مباشرة -->
     <div class="video-wrapper" onclick="window.location.href='https://www.taifdrama.online/2026/07/24.html';">
         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisbVzYwQ8L5lHw60Xw9vB_fL2N7t4-P5Xg5n89H7d_z7c_8z7c_8z7c_8z/s1600/24.jpg" alt="مسلسل طيف دراما الحلقة 24">
         <div class="play-btn"><svg width="40" height="40" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
     </div>
+    <!-- الزر الذهبي: يفتح الرابط عند الضغط فقط -->
     <a href="https://www.taifdrama.online/2026/07/24.html" class="watch-button">مشاهدة مسلسل طيف دراما الحلقة 24 كاملة</a>
     <article>
         <h1>مسلسل طيف دراما الحلقة 24 كاملة: مواجهة حاسمة تعيد رسم خريطة المشاعر</h1>
